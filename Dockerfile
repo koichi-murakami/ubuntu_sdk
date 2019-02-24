@@ -1,20 +1,19 @@
 #
 # Dockerfile for CentOS instance
 #
-FROM centos:latest
+FROM ubuntu:latest
 LABEL maintener="Koichi Murakami <koichi.murakami@kek.jp>"
 
 #
-RUN yum install -y epel-release tcsh zsh sudo make gcc-c++ \
-                   boost-devel expat-devel xerces-c-devel
+RUN apt-get update
+
+RUN apt-get install -y tcsh zsh sudo make build-essential \
+                       libboost-dev libexpat1-dev libxerces-c-dev \
+                       git cmake
 
 #
-RUN yum install -y git cmake3
-
-#
-RUN yum update -y && \
-    rm -rf /var/cache/yum/* && \
-    yum clean all
+RUN apt-get upgrade -y && \
+    rm -rf /var/lib/apt/lists/*
 
 #
 WORKDIR /
