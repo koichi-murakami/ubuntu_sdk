@@ -7,8 +7,9 @@
 Base image of Ubuntu 18.04 LTS for K6 SDK.
 
 This images includes additional packages to the centos base image :
-`tcsh`, `zsh`, `make`, `gcc-c++`,
-`boost-devel`, `expat-devel`, `xerces-c-devel`, `git`, `camke3`.
+`tcsh`, `zsh`, `make`, `build-essential`,
+`libboost-devel`, `libexpat1-devel`, `libxerces-c-devel`, `libcpputest-dev`
+`git`, `camke3`.
 
 <img src="https://assets.ubuntu.com/v1/57a889f6-ubuntu-logo112.png" width=20%>
 
@@ -29,3 +30,4 @@ might be found in the
 As for any pre-built image usage, it is the image user's responsibility
 to ensure that any use of this image complies with any relevant licenses
 for all software contained within.
+
