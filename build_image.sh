@@ -5,7 +5,7 @@
 
 echo "@@ Build Docker image ..."
 
-target=koichimurakamik6/centos7:latest
+target=koichimurakamik6/ubuntu18:latest
 
 id=`docker image ls -q $target`
 
