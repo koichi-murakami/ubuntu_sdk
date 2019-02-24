@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-[`latest` (*Dockerfile*)](https://github.com/koichi-murakami/centos_sdk/blob/master/Dockerfile)
+[`latest` (*Dockerfile*)](https://github.com/koichi-murakami/ubuntu_sdk/blob/master/Dockerfile)
 
 # Ubuntu 18 K6 SDK
 
