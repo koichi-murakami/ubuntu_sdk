@@ -9,7 +9,7 @@ RUN apt-get update
 
 RUN apt-get install -y tcsh zsh sudo make build-essential \
                        libboost-dev libexpat1-dev libxerces-c-dev \
-                       git cmake
+                       libcpputest-dev git cmake
 
 #
 RUN apt-get upgrade -y && \
@@ -17,3 +17,4 @@ RUN apt-get upgrade -y && \
 
 #
 WORKDIR /
+
