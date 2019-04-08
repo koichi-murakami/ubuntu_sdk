@@ -7,7 +7,7 @@
 Base image of Ubuntu 18.04 LTS for K6 SDK.
 
 This images includes additional packages to the centos base image :
-`tcsh`, `zsh`, `make`, `build-essential`,
+`tcsh`, `zsh`, `make`, `build-essential`, `vim`, 
 `libboost-devel`, `libexpat1-devel`, `libxerces-c-devel`, `libcpputest-dev`
 `git`, `camke`.
 
