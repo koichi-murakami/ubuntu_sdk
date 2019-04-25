@@ -5,7 +5,8 @@ FROM ubuntu:latest
 LABEL maintener="Koichi Murakami <koichi.murakami@kek.jp>"
 
 #
-RUN apt-get update --fix-missing
+#RUN apt-get update --fix-missing
+RUN apt-get update
 
 RUN apt-get install -y tcsh zsh sudo make build-essential vim \
                        libboost-dev libexpat1-dev libxerces-c-dev \
