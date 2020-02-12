@@ -1,11 +1,10 @@
 #
-# Dockerfile for CentOS instance
+# Dockerfile for Ubuntu instance
 #
 FROM ubuntu:latest
 LABEL maintener="Koichi Murakami <koichi.murakami@kek.jp>"
 
 #
-#RUN apt-get update --fix-missing
 RUN apt-get update
 
 RUN apt-get install -y tcsh zsh sudo make build-essential vim \
@@ -18,4 +17,3 @@ RUN apt-get upgrade -y && \
 
 #
 WORKDIR /
-
