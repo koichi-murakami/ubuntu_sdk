@@ -7,7 +7,7 @@ export DOCKER_BUILDKIT=1
 
 echo "@@ Build Docker image ..."
 
-target=koichimurakamik6/ubuntu18:latest
+target=koichimurakamik6/ubuntu:latest
 
 id=`docker image ls -q $target`
 
