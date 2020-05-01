@@ -1,10 +1,6 @@
-# Supported tags and respective `Dockerfile` links
+# Ubuntu K6 SDK
 
-[`latest` (*Dockerfile*)](https://github.com/koichi-murakami/ubuntu_sdk/blob/master/Dockerfile)
-
-# Ubuntu 18 K6 SDK
-
-Base image of Ubuntu 18.04 LTS for K6 SDK.
+Base image of Ubuntu LTS for K6 SDK.
 
 This images includes additional packages to the centos base image :
 `tcsh`, `zsh`, `make`, `build-essential`, `vim`, 
@@ -12,6 +8,11 @@ This images includes additional packages to the centos base image :
 `git`, `camke`.
 
 <img src="https://assets.ubuntu.com/v1/57a889f6-ubuntu-logo112.png" width=20%>
+
+# Supported Tags
+
+* `master` : Ubuntu 20.04 LTS
+* `18.04` : Ubuntu 18.04 LTS
 
 # License
 
