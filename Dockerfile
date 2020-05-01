@@ -1,7 +1,7 @@
 #
 # Dockerfile for Ubuntu instance
 #
-FROM ubuntu:latest
+FROM ubuntu:18.04
 LABEL maintener="Koichi Murakami <koichi.murakami@kek.jp>"
 
 #
