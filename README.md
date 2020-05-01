@@ -1,7 +1,3 @@
-# Supported tags and respective `Dockerfile` links
-
-[`latest` (*Dockerfile*)](https://github.com/koichi-murakami/ubuntu_sdk/blob/master/Dockerfile)
-
 # Ubuntu K6 SDK
 
 Base image of Ubuntu LTS for K6 SDK.
