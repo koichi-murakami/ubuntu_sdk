@@ -4,6 +4,8 @@
 FROM ubuntu:latest
 LABEL maintener="Koichi Murakami <koichi.murakami@kek.jp>"
 
+ENV DEBIAN_FRONTEND=nointeractive
+
 #
 RUN apt-get update
 
