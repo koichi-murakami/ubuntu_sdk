@@ -2,7 +2,7 @@
 
 Base image of Ubuntu LTS for K6 SDK.
 
-This images includes additional packages to the centos base image :
+This images includes additional packages to the ubuntu base image :
 `tcsh`, `zsh`, `make`, `build-essential`, `vim`, 
 `libboost-devel`, `libexpat1-devel`, `libxerces-c-devel`, `libcpputest-dev`
 `git`, `camke`.
