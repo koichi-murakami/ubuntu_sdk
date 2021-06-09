@@ -12,8 +12,7 @@ RUN apt-get install -y tcsh zsh sudo make build-essential vim \
                        libcpputest-dev git cmake
 
 #
-RUN apt-get upgrade -y && \
-    rm -rf /var/lib/apt/lists/*
+RUN rm -rf /var/lib/apt/lists/*
 
 #
 WORKDIR /
