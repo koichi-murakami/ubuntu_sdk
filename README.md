@@ -3,7 +3,7 @@
 Base image of Ubuntu LTS for K6 SDK.
 
 This images includes additional packages to the ubuntu base image :
-`tcsh`, `zsh`, `make`, `build-essential`, `vim`, 
+`tcsh`, `zsh`, `make`, `build-essential`, `vim`,
 `libboost-devel`, `libexpat1-devel`, `libxerces-c-devel`, `libcpputest-dev`
 `git`, `camke`.
 
@@ -11,7 +11,8 @@ This images includes additional packages to the ubuntu base image :
 
 # Supported Tags
 
-* `master` : Ubuntu 20.04 LTS
+* `latest` : Ubuntu 20.04 LTS
+* `20.04` : Ubuntu 20.04 LTS
 * `18.04` : Ubuntu 18.04 LTS
 
 # License
@@ -31,4 +32,3 @@ might be found in the
 As for any pre-built image usage, it is the image user's responsibility
 to ensure that any use of this image complies with any relevant licenses
 for all software contained within.
-
