@@ -11,7 +11,8 @@ This images includes additional packages to the ubuntu base image :
 
 # Supported Tags
 
-* `latest` : Ubuntu 20.04 LTS
+* `latest` : Ubuntu 22.04 LTS
+* `22.04` : Ubuntu 22.04 LTS
 * `20.04` : Ubuntu 20.04 LTS
 * `18.04` : Ubuntu 18.04 LTS
 
