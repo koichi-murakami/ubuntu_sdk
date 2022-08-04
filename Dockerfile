@@ -1,7 +1,7 @@
 #
 # Dockerfile for Ubuntu instance
 #
-FROM ubuntu:latest
+FROM ubuntu:22.04
 LABEL maintener="Koichi Murakami <koichi.murakami@kek.jp>"
 
 ENV DEBIAN_FRONTEND=nointeractive
